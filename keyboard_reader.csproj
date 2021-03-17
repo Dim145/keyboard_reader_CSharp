@@ -13,7 +13,7 @@
     <Authors>Dim145</Authors>
     <Company>GitHub</Company>
     <PackageDescription>This package adds an keyborad_reader!</PackageDescription>
-    <RepositoryUrl>https://github.com/Dim145/keyboardReader_CSharp</RepositoryUrl>
+    <RepositoryUrl>https://github.com/Dim145/keyboard_reader_CSharp</RepositoryUrl>
   </PropertyGroup>
 
 </Project>
