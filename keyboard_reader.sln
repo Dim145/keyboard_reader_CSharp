@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "keyboard_reader", "keyboard_reader.csproj", "{972C2348-FB48-4118-AD0B-E0C82306805B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestKeyBoardReader", "..\TestKeyBoardReader\TestKeyBoardReader.csproj", "{9A1E4752-36E9-4965-B805-6A3F4B2F1591}"
+	ProjectSection(ProjectDependencies) = postProject
+		{972C2348-FB48-4118-AD0B-E0C82306805B} = {972C2348-FB48-4118-AD0B-E0C82306805B}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{972C2348-FB48-4118-AD0B-E0C82306805B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{972C2348-FB48-4118-AD0B-E0C82306805B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{972C2348-FB48-4118-AD0B-E0C82306805B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{972C2348-FB48-4118-AD0B-E0C82306805B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A1E4752-36E9-4965-B805-6A3F4B2F1591}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A1E4752-36E9-4965-B805-6A3F4B2F1591}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A1E4752-36E9-4965-B805-6A3F4B2F1591}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A1E4752-36E9-4965-B805-6A3F4B2F1591}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90BDE0DD-1BE5-4CF1-AD71-9A928D84A508}
+	EndGlobalSection
+EndGlobal
